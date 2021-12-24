@@ -1,6 +1,7 @@
 /*!
  @brief Class used to interface with Spotify API
  Class performs Spotify API authentication using a refresh token & then performs API call to fetch recently played songs from a dummy account made for project
+ Spotify API
 */
 
 #ifndef SPOTIFY_API_H
