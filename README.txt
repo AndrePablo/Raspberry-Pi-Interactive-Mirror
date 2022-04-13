@@ -13,4 +13,4 @@ MVC pattern to decouple the user interface from the model for a parallelized wor
 Observer design pattern to fetch data when changes are detected for a seamless user experience
 UML highlighting the software functionality shown as follows:
 
-[![Screenshot-2022-04-13-170233.png](https://i.postimg.cc/Y96Rdr04/Screenshot-2022-04-13-170233.png)](https://postimg.cc/62QC3Ndw)
+
