@@ -1,29 +1,16 @@
-LIBRARY INSTALLATION:
-sudo apt-get update -y
-sudo apt-get install libcurl4-openssl-dev
-sudo apt-get install wiringpi
-sudo apt-get install build-essential
-sudo apt-get install qt5-default
-sudo apt-get install libjsoncpp-dev
+Display for a smart mirror created using Qt in C++. Display able to show:
 
-HARDWARE SETUP:
-----ARDUINO----
-LED VCC to ARDUINO DIG PIN 13
-LED GND to ARDUINO GND
-PIR OUTPUT to ARDUINO DIG PIN 3
-PIR VCC to ARDUINO 5V
-PIR GND to ARDUINO GND
+Recently played songs through integration with the Spotify API by regenerating refresh tokens upon GET requests
+Weather data by fetching it from an open-source API
+Time by fetching it from OS
+Tweets for a particular individual with Twitter API integration
+Additional functionality includes a smart power-saving mode enabled by polling motion detection readings from a Passive Infrared (PIR) sensor that sends data over a serial connection from an Arduino to the Raspberry Pi that the software runs on.
 
-----RASPBERRY PI----
-Arduino USB B to Raspberry Pi USB A
-Display HDMI to Raspberry Pi HDMI
+Software designed with design patterns in mind to improve development time including:
 
-NOTE:
-Due to underlying system architectures it is difficult to configure & install a core library used in the project: WiringPi
-Therefore the version of the submitted project only runs on a Raspbian System with an ARM architecture as those come pre-loaded with the correct WiringPi library
+Factory design pattern to generate various APIs for data fetching
+MVC pattern to decouple the user interface from the model for a parallelized workflow
+Observer design pattern to fetch data when changes are detected for a seamless user experience
+UML highlighting the software functionality shown as follows:
 
-COMPILE & RUN:
-find . -exec touch {} \;
-qmake
-make
-./SmartMirror
+[![Screenshot-2022-04-13-170233.png](https://i.postimg.cc/Y96Rdr04/Screenshot-2022-04-13-170233.png)](https://postimg.cc/62QC3Ndw)
