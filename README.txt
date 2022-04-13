@@ -11,6 +11,6 @@ Software designed with design patterns in mind to improve development time inclu
 Factory design pattern to generate various APIs for data fetching
 MVC pattern to decouple the user interface from the model for a parallelized workflow
 Observer design pattern to fetch data when changes are detected for a seamless user experience
-UML highlighting the software functionality shown as follows:
+
 
 
