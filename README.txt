@@ -6,7 +6,7 @@ Display for a smart mirror created using Qt in C++. Display able to show:
 - Tweets for a particular individual with Twitter API integration
 - Additional functionality includes a smart power-saving mode enabled by polling motion detection readings from a Passive Infrared (PIR) sensor that sends data - over a serial connection from an Arduino to the Raspberry Pi that the software runs on.
 
-Software designed with design patterns in mind to improve development time including:
+ Design patterns leveraged:
 
 - Factory design pattern to generate various APIs for data fetching
 - MVC pattern to decouple the user interface from the model for a parallelized workflow
