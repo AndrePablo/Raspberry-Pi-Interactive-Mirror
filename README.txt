@@ -12,5 +12,5 @@ Display for a smart mirror created using Qt in C++. Display able to show:
 - MVC pattern to decouple the user interface from the model for a parallelized workflow
 - Observer design pattern to fetch data when changes are detected 
 
-
+KEY TAKEAWAYS: Leveraging C++ to make an efficient IOT system. Implementing a backend that leverages Twitter api, and spotify api, parses and filters response data in a clean efficient way that allows clients to easily render data.
 
